@@ -1,5 +1,0 @@
-dbt-core
-dbt_sqlite
-pytest
-pyspark
-pyspark-test
