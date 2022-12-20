@@ -30,6 +30,12 @@ The dataset is contained in this SQLite database file.Please refer the `/dataset
 3. winter_games
 4. athletes
 
+### Unit test cases that we should consider.
+1. unique : the `athletic_id` column in the `athletes` model should be unique
+2. not_null : the `athletic_id` column in the `athletes` model should not contain null values
+3. accepted_values : the medal column in the `summer_games/winter_games` should be one of `gold'`, `bronze`,  or `silver`
+4. relationships : each `athletic_id` in the `athletes` model exists as an id in the summer_games/winter_games table (also known as referential integrity)
+
 
 
 
@@ -37,4 +43,5 @@ The dataset is contained in this SQLite database file.Please refer the `/dataset
 
 
     
+
 
