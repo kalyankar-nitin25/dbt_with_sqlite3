@@ -53,7 +53,7 @@ The dataset is contained in this SQLite database file.Please refer the `/dataset
 
 
 3. Paste this file under `.dbt` folder. Ex. `<home dire>/.dbt/profiles.yml`
-4. Create the virtual environment `python3 -m vevn dbt-venv`
+4. Create the virtual environment `python3 -m venv dbt-venv`
 5. And then activate the newly created venv `source dbt-venv/bin/activate`
 6. Then install DBT core ``Installing dbt-core`` using `pip install dbt-core`
 7. Then Installing dbt plugins for your SQLLite data platform,`pip install db-sqlite3`
